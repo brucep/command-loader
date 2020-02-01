@@ -8,7 +8,7 @@ use Symfony\Component\Console\Exception\CommandNotFoundException;
 
 final class DefaultNameCommandLoader implements CommandLoaderInterface
 {
-    private $commands;
+    private $commands = [];
 
     public function __construct(array $classes)
     {
