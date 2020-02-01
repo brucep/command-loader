@@ -17,4 +17,4 @@ $application->setCommandLoader($commandLoader);
 $application->run();
 ```
 
-See also: [How to Make Commands Lazily Loaded](https://symfony.com/doc/4.2/console/lazy_commands.html)
+See also: [How to Make Commands Lazily Loaded](https://symfony.com/doc/4.4/console/lazy_commands.html)
